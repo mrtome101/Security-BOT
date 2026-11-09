@@ -41,7 +41,7 @@ const {
 //  CONFIGURATION
 // ============================================================
 // Never commit a real token. Prefer the TOKEN environment variable.
-const TOKEN = process.env.TOKEN || '';
+const TOKEN = process.env.TOKEN || 'YOUR_NEW_TOKEN_HERE';
 
 const PREFIX = '/';
 const COLOR = 0x4b4b4b; // embed side-line colour
